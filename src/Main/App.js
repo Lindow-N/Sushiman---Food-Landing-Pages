@@ -7,7 +7,7 @@ import menu from "../Asset/iconmonstr-menu-lined-240.png";
 import fond1 from "../Asset/Desktop - 1 (2).png";
 import Sushi from "../Asset/iMac - 1.png";
 import saumon from "../Asset/iMac - 2.png";
-import Avatar from "../Asset/94041140-femme-asiatique.webp";
+import Avatar from "../Asset/94041140-femme-asiatique.png";
 import "./App.css";
 
 function App() {
