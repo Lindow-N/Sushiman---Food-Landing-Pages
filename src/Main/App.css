@@ -1,0 +1,423 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .App {
+    display: flex;
+    flex-direction: row;
+  }
+  .App-NavBar {
+    display: none;
+  }
+  .App-NavBarMobil {
+    display: none;
+  }
+
+  .ContainerLeft {
+    width: 35vw;
+    background-color: #b1464a;
+    z-index: 999;
+  }
+  .ContainerLeft img {
+    width: 125%;
+    z-index: 999;
+  }
+  .ContainerLeft2 {
+    background-color: #ffffff;
+  }
+  .ContainerLeft2 img {
+    width: 100%;
+  }
+  .App-NavBarDesktop {
+    color: #ffffff;
+    margin-left: 10%;
+    margin-top: 3vh;
+    font-size: x-large;
+    font-weight: 600;
+  }
+  .ContainerRight {
+    width: 65vw;
+  }
+
+  .App-NavBarDesktop2 {
+    width: 70%;
+    margin-left: 25%;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-around;
+  }
+  .App-NavBarDesktop2 a {
+    color: #111111;
+    font-size: x-large;
+    font-weight: 800;
+  }
+
+  .App-H1 {
+    margin: 10% 5% 0% 3%;
+    font-size: 3vw;
+    margin-left: 7%;
+  }
+
+  #App-Sushi {
+    display: none;
+  }
+
+  .App-ContaineurH1Description p {
+    font-size: 1.7vw;
+    margin-left: 15%;
+    margin-top: 3%;
+  }
+  .App-ContaineurBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5% 0 9.1% 10%;
+  }
+
+  #btn1 {
+    width: 30%;
+    align-items: center;
+    background-color: #111111;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #e2e2e2;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1.5vw;
+    justify-content: center;
+    overflow: hidden;
+    padding: 3% 0;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 3%;
+  }
+
+  #btn1 :hover,
+  #btn1 :focus {
+    background-color: #111111;
+    color: #ffffff;
+  }
+
+  #btn1 :active {
+    background: #09223b;
+    color: rgb(255, 255, 255, 0.7);
+  }
+
+  #btn2 {
+    width: 30%;
+    align-items: center;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #111111;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1.5vw;
+    justify-content: center;
+    overflow: hidden;
+    padding: 3% 0;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+      box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+      color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  .App-ContaineurInfoBar {
+    background-color: #fff0de;
+    display: flex;
+    flex-direction: row;
+    z-index: 0;
+  }
+
+  .App-ContaineurInfoBar2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10%;
+    border-right: solid 1px #d3d3d3;
+  }
+
+  .App-ContaineurInfoBar2 h2 {
+    font-size: 6vh;
+  }
+
+  .App-ContaineurInfoBar2 h3 {
+    margin-left: 3%;
+  }
+
+  .App-ContaineurInfoBar3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4% 10%;
+  }
+
+  .App-ContaineurInfoBar3 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .App-ContaineurInfoBar3 p {
+    margin-left: 5%;
+    line-height: 5vh;
+    font-size: 2.3vh;
+  }
+
+  .App-AboutUsContainer {
+    padding: 15% 5%;
+  }
+
+  .App-AboutUsContainer h2 {
+    color: #b1464a;
+    margin-bottom: 5%;
+  }
+
+  .App-AboutUsContainer h1 {
+    font-size: 6vh;
+    margin-bottom: 5%;
+  }
+
+  .App-AboutUsContainer p {
+    font-size: 2.7vh;
+    line-height: 5vh;
+  }
+}
+
+@media (max-width: 767px) {
+  .ContainerLeft {
+    display: none;
+  }
+
+  .App-NavBarDesktop2 {
+    display: none;
+  }
+  .App-NavBar {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .App-NavBar1 {
+    width: 80%;
+    font-size: x-large;
+  }
+  .App-NavBar1 p {
+    margin-left: 5%;
+  }
+
+  .App-NavBar1 p span {
+    color: #b1464a;
+  }
+  .App-NavBar2 {
+    width: 20%;
+    height: 10vh;
+    background-color: #b1464a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .App-NavBar2 img {
+    width: 4vh;
+    height: 6vh;
+  }
+  .App-NavBarMobil {
+    width: 100vw;
+    height: 100vh;
+    background-color: #b1464a;
+    display: flex;
+    align-items: center;
+  }
+
+  .App-NavBarMobilContainer {
+    width: 75vw;
+    height: 65vh;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .App-NavBarMobilContainer a {
+    font-size: xx-large;
+    color: #ffffff;
+  }
+
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .App-H1 {
+    margin: 10% 2% 0% 2%;
+    font-size: 6.5vw;
+    margin-left: 5%;
+  }
+
+  .App-ContaineurH1Description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #App-Sushi {
+    width: 35vw;
+  }
+
+  .App-ContaineurH1Description p {
+    font-size: 5.5vw;
+    line-height: 6vh;
+  }
+  .App-ContaineurBtn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #btn1 {
+    width: 90%;
+    margin: 8% auto 5% auto;
+    align-items: center;
+    background-color: #111111;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #e2e2e2;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 5vw;
+    justify-content: center;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 6% 0;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  #btn1 :hover,
+  #btn1 :focus {
+    background-color: #111111;
+    color: #ffffff;
+  }
+
+  #btn1 :active {
+    background: #09223b;
+    color: rgb(255, 255, 255, 0.7);
+  }
+
+  #btn2 {
+    width: 90%;
+    margin: 1% auto 10% auto;
+    align-items: center;
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #111111;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 5vw;
+    justify-content: center;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 5% 0;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+      box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+      color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  .App-ContaineurInfoBar {
+    background-color: #fff0de;
+  }
+
+  .App-ContaineurInfoBar2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    border-bottom: solid 1px #d3d3d3;
+  }
+
+  .App-ContaineurInfoBar2 h2 {
+    font-size: 6vh;
+  }
+
+  .App-ContaineurInfoBar2 h3 {
+    margin-left: 3%;
+  }
+
+  .App-ContaineurInfoBar3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+  }
+
+  .App-ContaineurInfoBar3 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .App-ContaineurInfoBar3 p {
+    margin-left: 5%;
+    line-height: 5vh;
+    font-size: 2.3vh;
+  }
+
+  .App-AboutUsContainer {
+    padding: 15% 5%;
+  }
+
+  .App-AboutUsContainer h2 {
+    color: #b1464a;
+    margin-bottom: 5%;
+  }
+
+  .App-AboutUsContainer h1 {
+    font-size: 6vh;
+    margin-bottom: 5%;
+  }
+
+  .App-AboutUsContainer p {
+    font-size: 2.7vh;
+    line-height: 5vh;
+  }
+}
