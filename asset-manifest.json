@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Sushiman---Food-Landing-Pages/static/css/main.bb5923ab.css",
-    "main.js": "/Sushiman---Food-Landing-Pages/static/js/main.7b28eca4.js",
+    "main.css": "/Sushiman---Food-Landing-Pages/static/css/main.ed078a70.css",
+    "main.js": "/Sushiman---Food-Landing-Pages/static/js/main.b1e649d7.js",
+    "static/media/Desktop - 1 (2).png": "/Sushiman---Food-Landing-Pages/static/media/Desktop - 1 (2).3c21418c1170e4faed90.png",
     "static/media/iMac - 2.png": "/Sushiman---Food-Landing-Pages/static/media/iMac - 2.44bfb8a1030671fd33bf.png",
     "static/media/BagSushi.PNG": "/Sushiman---Food-Landing-Pages/static/media/BagSushi.6016b47b695746c19ae6.PNG",
-    "static/media/Desktop - 1 (2).png": "/Sushiman---Food-Landing-Pages/static/media/Desktop - 1 (2).221e37f79737efd1b6c1.png",
     "static/media/94041140-femme-asiatique.png": "/Sushiman---Food-Landing-Pages/static/media/94041140-femme-asiatique.dade9834fd2a133d8da5.png",
     "static/media/iMac - 1.png": "/Sushiman---Food-Landing-Pages/static/media/iMac - 1.a8af0ce29b4a27ad6486.png",
     "index.html": "/Sushiman---Food-Landing-Pages/index.html",
-    "main.bb5923ab.css.map": "/Sushiman---Food-Landing-Pages/static/css/main.bb5923ab.css.map",
-    "main.7b28eca4.js.map": "/Sushiman---Food-Landing-Pages/static/js/main.7b28eca4.js.map"
+    "main.ed078a70.css.map": "/Sushiman---Food-Landing-Pages/static/css/main.ed078a70.css.map",
+    "main.b1e649d7.js.map": "/Sushiman---Food-Landing-Pages/static/js/main.b1e649d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb5923ab.css",
-    "static/js/main.7b28eca4.js"
+    "static/css/main.ed078a70.css",
+    "static/js/main.b1e649d7.js"
   ]
 }
