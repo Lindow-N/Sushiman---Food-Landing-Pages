@@ -50,14 +50,12 @@ function App() {
         <>
           <ToastContainer />
           <div className="ContainerLeft">
-            <div className="ContainerLeft1">
               <div className="App-NavBarDesktop">SUSHIMAN</div>
               <img src={fond1}></img>
               <div className="ContainerLeft2">
                 <img src={saumon}></img>
                 <img src={Sushi}></img>
               </div>
-            </div>
           </div>
           <div className="ContainerRight">
             <div className="App-NavBarDesktop2">
@@ -82,6 +80,7 @@ function App() {
                 <img src={menu}></img>
               </div>
             </div>
+            <div  className="ContainerRight2">
             <div className="App-H1">
               <h1>Feel the taste of Japanese foods</h1>
             </div>
@@ -98,6 +97,8 @@ function App() {
               <button id="btn1">Order Now</button>
               <button id="btn2">How to Order</button>
             </div>
+            </div>
+            
 
             <div className="App-ContaineurInfoBar">
               <div className="App-ContaineurInfoBar2">
