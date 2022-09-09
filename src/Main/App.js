@@ -8,6 +8,9 @@ import fond1 from "../Asset/Desktop - 1 (2).png";
 import Sushi from "../Asset/iMac - 1.png";
 import saumon from "../Asset/iMac - 2.png";
 import Avatar from "../Asset/94041140-femme-asiatique.png";
+
+
+import Page2 from "../Page2/Page2";
 import "./App.css";
 
 function App() {
@@ -29,6 +32,7 @@ function App() {
   notify();
 
   return (
+    <>
     <div className="App">
       {MobileNavbar ? (
         <>
@@ -50,12 +54,12 @@ function App() {
         <>
           <ToastContainer />
           <div className="ContainerLeft">
-              <div className="App-NavBarDesktop">SUSHIMAN</div>
-              <img src={fond1}></img>
-              <div className="ContainerLeft2">
-                <img src={saumon}></img>
-                <img src={Sushi}></img>
-              </div>
+            <div className="App-NavBarDesktop">SUSHIMAN</div>
+            <img src={fond1}></img>
+            <div className="ContainerLeft2">
+              <img src={saumon}></img>
+              <img src={Sushi}></img>
+            </div>
           </div>
           <div className="ContainerRight">
             <div className="App-NavBarDesktop2">
@@ -80,25 +84,24 @@ function App() {
                 <img src={menu}></img>
               </div>
             </div>
-            <div  className="ContainerRight2">
-            <div className="App-H1">
-              <h1>Feel the taste of Japanese foods</h1>
-            </div>
+            <div className="ContainerRight2">
+              <div className="App-H1">
+                <h1>Feel the taste of Japanese foods</h1>
+              </div>
 
-            <div className="App-ContaineurH1Description">
-              <img src={BagSushi} id="App-Sushi"></img>
-              <p>
-                Feel the taste of most populars Japanese foods from anywhere and
-                anytime.
-              </p>
-            </div>
+              <div className="App-ContaineurH1Description">
+                <img src={BagSushi} id="App-Sushi"></img>
+                <p>
+                  Feel the taste of most populars Japanese foods from anywhere
+                  and anytime.
+                </p>
+              </div>
 
-            <div className="App-ContaineurBtn">
-              <button id="btn1">Order Now</button>
-              <button id="btn2">How to Order</button>
+              <div className="App-ContaineurBtn">
+                <button id="btn1">Order Now</button>
+                <button id="btn2">How to Order</button>
+              </div>
             </div>
-            </div>
-            
 
             <div className="App-ContaineurInfoBar">
               <div className="App-ContaineurInfoBar2">
@@ -121,7 +124,6 @@ function App() {
               <h1>Our mission is to bring true japanese flavours to you.</h1>
 
               <p>
-                {" "}
                 We will continue to provide the experience of Hokaido, the
                 Japanese mindset of hospitality, with our shopping and dining
                 for our customers.
@@ -130,7 +132,11 @@ function App() {
           </div>
         </>
       )}
+
     </div>
+
+<Page2 />
+</>
   );
 }
 

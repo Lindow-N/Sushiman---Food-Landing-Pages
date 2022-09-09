@@ -1,0 +1,163 @@
+.Page2-MaimContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #b1464a;
+}
+
+@media (min-width: 768px) {
+  .Page2-h1Container {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 3;
+  }
+  .Page2-h1Container h1 {
+    font-size: 6vh;
+    color: #fff;
+  }
+
+  .Page2-2Container {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .Page2-2Container ul {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    font-size: x-large;
+  }
+
+  .Page2-2Container ul li {
+    list-style: none;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.1);
+
+    border: solid 1px #fff;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1.6rem;
+    justify-content: center;
+    overflow: hidden;
+    padding: 2% 3.5%;
+    text-align: center;
+  }
+
+  .Page2-3Container {
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Page2-4Container {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #btn3 {
+    width: 18%;
+    align-items: center;
+    background-color: #111111;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #e2e2e2;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1.1vw;
+    justify-content: center;
+    overflow: hidden;
+    padding: 1.7% 0;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+
+@media (max-width: 767px) {
+  .Page2-h1Container {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 3;
+  }
+  .Page2-h1Container h1 {
+    font-size: 11vw;
+    color: #fff;
+    text-align: center;
+    padding: 0 5%;
+  }
+
+  .Page2-2Container {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .Page2-2Container ul {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    font-size: x-large;
+  }
+
+  .Page2-2Container ul li {
+    list-style: none;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.1);
+
+    border: solid 1px #fff;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 1.6rem;
+    justify-content: center;
+    overflow: hidden;
+    padding: 2% 3.5%;
+    text-align: center;
+  }
+
+  .Page2-3Container {
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Page2-4Container {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #btn3 {
+    width: 50%;
+    align-items: center;
+    background-color: #111111;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #e2e2e2;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 5vw;
+    justify-content: center;
+    overflow: hidden;
+    padding: 3% 0;
+    text-align: center;
+    vertical-align: middle;
+  }
+}

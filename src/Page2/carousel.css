@@ -1,0 +1,152 @@
+@media (min-width: 768px) {
+  .Slider-mainContainer {
+    width: 80%;
+  }
+
+  .Slider-card {
+    height: 45vh;
+  }
+
+  .Slider-card2 {
+    width: 70%;
+    height: 45vh;
+    margin: 0 auto;
+
+    background-color: rgb(255, 255, 255, 0.1);
+
+    border: solid 1px #fff;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+  }
+.Slider-card2:hover {
+background-color: #ffffff;
+color: black;
+}
+
+  .Slider-card21 {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Slider-card21img {
+    width: 90%;
+    height: 80%;
+  }
+
+  .Slider-card22 {
+    height: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Slider-card22 p {
+    font-size: xx-large;
+  }
+
+  .Slider-card23 {
+    height: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20%;
+  }
+
+  .Slider-card23 {
+    font-size: xx-large;
+  }
+  .Slider-card23div {
+    display: flex;
+    align-items: center;
+  }
+
+  .Slider-card23img {
+    width: 15%;
+    height: 15%;
+    margin-right: 4%;
+  }
+
+  #arrow {
+    width: 4vw;
+    height: 10vh;
+    z-index: 99;
+  }
+}
+
+@media (max-width: 767px) {
+  .Slider-mainContainer {
+    width: 90%;
+  }
+
+  .Slider-card {
+    height: 45vh;
+  }
+
+  .Slider-card2 {
+    width: 90%;
+    height: 45vh;
+    margin: 0 auto;
+
+    background-color: rgb(255, 255, 255, 0.1);
+
+    border: solid 1px #fff;
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .Slider-card21 {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Slider-card21img {
+    width: 90%;
+    height: 80%;
+  }
+
+  .Slider-card22 {
+    height: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Slider-card22 p {
+    font-size: xx-large;
+    text-align: center;
+  }
+
+  .Slider-card23 {
+    height: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20%;
+  }
+
+  .Slider-card23 {
+    font-size: x-large;
+  }
+  .Slider-card23div {
+    display: flex;
+    align-items: center;
+  }
+
+  .Slider-card23img {
+    width: 30%;
+    height: 30%;
+    margin-right: 4%;
+  }
+
+  #arrow {
+display: none;
+  }
+}
