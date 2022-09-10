@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sushiman---Food-Landing-Pages/static/css/main.377c31f8.css",
-    "main.js": "/Sushiman---Food-Landing-Pages/static/js/main.30fd1e89.js",
+    "main.css": "/Sushiman---Food-Landing-Pages/static/css/main.c2aeec7c.css",
+    "main.js": "/Sushiman---Food-Landing-Pages/static/js/main.920c68c3.js",
     "static/media/Desktop - 1 (2).png": "/Sushiman---Food-Landing-Pages/static/media/Desktop - 1 (2).3c21418c1170e4faed90.png",
     "static/media/iMac - 2.png": "/Sushiman---Food-Landing-Pages/static/media/iMac - 2.44bfb8a1030671fd33bf.png",
     "static/media/BagSushi.PNG": "/Sushiman---Food-Landing-Pages/static/media/BagSushi.6016b47b695746c19ae6.PNG",
@@ -25,11 +25,11 @@
     "static/media/slick.ttf": "/Sushiman---Food-Landing-Pages/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Sushiman---Food-Landing-Pages/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Sushiman---Food-Landing-Pages/index.html",
-    "main.377c31f8.css.map": "/Sushiman---Food-Landing-Pages/static/css/main.377c31f8.css.map",
-    "main.30fd1e89.js.map": "/Sushiman---Food-Landing-Pages/static/js/main.30fd1e89.js.map"
+    "main.c2aeec7c.css.map": "/Sushiman---Food-Landing-Pages/static/css/main.c2aeec7c.css.map",
+    "main.920c68c3.js.map": "/Sushiman---Food-Landing-Pages/static/js/main.920c68c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.377c31f8.css",
-    "static/js/main.30fd1e89.js"
+    "static/css/main.c2aeec7c.css",
+    "static/js/main.920c68c3.js"
   ]
 }
