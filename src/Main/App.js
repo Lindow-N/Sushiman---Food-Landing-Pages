@@ -9,8 +9,9 @@ import Sushi from "../Asset/iMac - 1.png";
 import saumon from "../Asset/iMac - 2.png";
 import Avatar from "../Asset/94041140-femme-asiatique.png";
 
-
 import Page2 from "../Page2/Page2";
+import Page3 from "../Page3/Page3";
+import Page4 from "../Page4/Page4";
 import "./App.css";
 
 function App() {
@@ -33,110 +34,113 @@ function App() {
 
   return (
     <>
-    <div className="App">
-      {MobileNavbar ? (
-        <>
-          <div className="App-NavBarMobil">
-            <div className="App-NavBarMobilContainer">
-              <a
-                className="hover-underline-animation"
-                onClick={() => setMobileNavbar(!MobileNavbar)}
-              >
-                Menu
-              </a>
-              <a className="hover-underline-animation">Food</a>
-              <a className="hover-underline-animation">Service</a>
-              <a className="hover-underline-animation">About Us</a>
+      <div className="App">
+        {MobileNavbar ? (
+          <>
+            <div className="App-NavBarMobil">
+              <div className="App-NavBarMobilContainer">
+                <a
+                  className="hover-underline-animation"
+                  onClick={() => setMobileNavbar(!MobileNavbar)}
+                >
+                  Menu
+                </a>
+                <a className="hover-underline-animation">Food</a>
+                <a className="hover-underline-animation">Service</a>
+                <a className="hover-underline-animation">About Us</a>
+              </div>
             </div>
-          </div>
-        </>
-      ) : (
-        <>
-          <ToastContainer />
-          <div className="ContainerLeft">
-            <div className="App-NavBarDesktop">SUSHIMAN</div>
-            <img src={fond1}></img>
-            <div className="ContainerLeft2">
-              <img src={saumon}></img>
-              <img src={Sushi}></img>
+          </>
+        ) : (
+          <>
+            <ToastContainer />
+            <div className="ContainerLeft">
+              <div className="App-NavBarDesktop">SUSHIMAN</div>
+              <img src={fond1}></img>
+              <div className="ContainerLeft2">
+                <img src={saumon}></img>
+                <img src={Sushi}></img>
+              </div>
             </div>
-          </div>
-          <div className="ContainerRight">
-            <div className="App-NavBarDesktop2">
-              <a>Menu</a>
-              <a>Food</a>
-              <a>Service</a>
-              <a>About Us</a>
-            </div>
-            <div className="App-NavBar">
-              <div className="App-NavBar1">
-                {" "}
+            <div className="ContainerRight">
+              <div className="App-NavBarDesktop2">
+                <a>Menu</a>
+                <a>Food</a>
+                <a>Service</a>
+                <a>About Us</a>
+              </div>
+              <div className="App-NavBar">
+                <div className="App-NavBar1">
+                  {" "}
+                  <p>
+                    <b>
+                      <span>SUSHI</span>MAN
+                    </b>
+                  </p>
+                </div>
+                <div
+                  className="App-NavBar2"
+                  onClick={() => setMobileNavbar(!MobileNavbar)}
+                >
+                  <img src={menu}></img>
+                </div>
+              </div>
+              <div className="ContainerRight2">
+                <div className="App-H1">
+                  <h1>Feel the taste of Japanese foods</h1>
+                </div>
+
+                <div className="App-ContaineurH1Description">
+                  <img src={BagSushi} id="App-Sushi"></img>
+                  <p>
+                    Feel the taste of most populars Japanese foods from anywhere
+                    and anytime.
+                  </p>
+                </div>
+
+                <div className="App-ContaineurBtn">
+                  <button id="btn1">Order Now</button>
+                  <button id="btn2">How to Order</button>
+                </div>
+              </div>
+
+              <div className="App-ContaineurInfoBar">
+                <div className="App-ContaineurInfoBar2">
+                  <h2>24K+ </h2> <h3> Happy Customer</h3>
+                </div>
+                <div className="App-ContaineurInfoBar3">
+                  <img src={Avatar}></img>{" "}
+                  <p>
+                    <i>
+                      " This is the best japanese food delivery service that
+                      ever exist "
+                    </i>
+                  </p>
+                </div>
+              </div>
+
+              <div className="App-AboutUsContainer">
+                <h2>About Us / 私たちに関しては</h2>
+
+                <h1>Our mission is to bring true japanese flavours to you.</h1>
+
                 <p>
-                  <b>
-                    <span>SUSHI</span>MAN
-                  </b>
+                  We will continue to provide the experience of Hokaido, the
+                  Japanese mindset of hospitality, with our shopping and dining
+                  for our customers.
                 </p>
               </div>
-              <div
-                className="App-NavBar2"
-                onClick={() => setMobileNavbar(!MobileNavbar)}
-              >
-                <img src={menu}></img>
-              </div>
-            </div>
-            <div className="ContainerRight2">
-              <div className="App-H1">
-                <h1>Feel the taste of Japanese foods</h1>
-              </div>
-
-              <div className="App-ContaineurH1Description">
-                <img src={BagSushi} id="App-Sushi"></img>
-                <p>
-                  Feel the taste of most populars Japanese foods from anywhere
-                  and anytime.
-                </p>
-              </div>
-
-              <div className="App-ContaineurBtn">
-                <button id="btn1">Order Now</button>
-                <button id="btn2">How to Order</button>
-              </div>
             </div>
 
-            <div className="App-ContaineurInfoBar">
-              <div className="App-ContaineurInfoBar2">
-                <h2>24K+ </h2> <h3> Happy Customer</h3>
-              </div>
-              <div className="App-ContaineurInfoBar3">
-                <img src={Avatar}></img>{" "}
-                <p>
-                  <i>
-                    " This is the best japanese food delivery service that ever
-                    exist "
-                  </i>
-                </p>
-              </div>
-            </div>
+          </>
+        )}
 
-            <div className="App-AboutUsContainer">
-              <h2>About Us / 私たちに関しては</h2>
 
-              <h1>Our mission is to bring true japanese flavours to you.</h1>
-
-              <p>
-                We will continue to provide the experience of Hokaido, the
-                Japanese mindset of hospitality, with our shopping and dining
-                for our customers.
-              </p>
-            </div>
-          </div>
-        </>
-      )}
-
-    </div>
-
-<Page2 />
-</>
+      </div>
+      <Page2 />
+            <Page3 />
+            <Page4/>
+    </>
   );
 }
 

@@ -1,0 +1,162 @@
+.Page4-MaimContainer {
+  width: 100vw;
+  height: 60vh;
+}
+
+.Page4-MaimContainer2 {
+  width: 100vw;
+  height: 50vh;
+  background-color: #b1464a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.Page4-MaimContainer21 {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Page4-MaimContainer22 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: rgb(255, 255, 255, 0.05);
+
+  border: solid 1px #fff;
+  border-radius: 100px;
+
+  cursor: pointer;
+
+  padding: 6% 3.5%;
+}
+
+#btn5 {
+  width: 33%;
+  align-items: center;
+  background-color: #111111;
+  border: 0;
+  border-radius: 100px;
+  color: #e2e2e2;
+  cursor: pointer;
+  font-size: 3vw;
+  justify-content: center;
+  overflow: hidden;
+  padding: 5% 2%;
+  text-align: center;
+}
+
+.Page4-MaimContainer3 {
+  height: 10vh;
+  background-color: #fff0de;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Page4-MaimContainer31 {
+  width: 30%;
+  text-align: center;
+}
+.Page4-MaimContainer31 span {
+  color: #b1464a;
+}
+
+.Page4-MaimContainer31 p {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.Page4-MaimContainer32 {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+@media (min-width: 768px) {
+
+  .Page4-MaimContainer21 {
+    width: 60%;
+    height: 70%;
+    align-items: center;
+
+  }
+
+  
+  .Page4-MaimContainer21 h1{
+font-size: 5rem;
+
+  }
+
+  .Page4-MaimContainer21 p{
+    font-size: 1.5rem;
+    
+      }
+
+  .Page4-MaimContainer22 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(255, 255, 255, 0.05);
+
+    border: solid 1px #fff;
+    border-radius: 100px;
+
+    cursor: pointer;
+
+    padding: 1rem 2rem;
+  }
+
+  #btn5 {
+    width: 50%;
+    align-items: center;
+    background-color: #111111;
+    border: 0;
+    border-radius: 100px;
+    color: #e2e2e2;
+    cursor: pointer;
+    font-size: 1.2rem;
+    justify-content: center;
+    overflow: hidden;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+
+  .Page4-MaimContainer3 {
+    height: 10vh;
+    background-color: #fff0de;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .Page4-MaimContainer31 {
+    width: 30%;
+    text-align: center;
+  }
+
+  .Page4-MaimContainer31 p {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .Page4-MaimContainer32 {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .Page4-MaimContainer32 a{
+  font-size: 1.4rem;
+  }
+}
