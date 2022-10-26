@@ -1,0 +1,261 @@
+{
+    "Anime": [
+      {
+        "Naruto": [
+            {
+                "Lastname":"Haruno",
+                "Firstname": "Sakura",
+                "Img":"",
+                "Kana": "サクラ"
+            },
+            {
+                "Lastname":"Uchiha",
+                "Firstname": "Sasuke",
+                "Img":"",
+                "Kana": "サスケ"
+            },
+            {
+                "Lastname":"Uzumaki",
+                "Firstname": "Naruto",
+                "Img":"",
+                "Kana": "ナルト"
+            },
+            {
+                "Lastname":"Hatake",
+                "Firstname": "Kakashi",
+                "Img":"",
+                "Kana": "カカシ"
+            },
+            {
+                "Lastname":"Uchiha",
+                "Firstname": "Itachi",
+                "Img":"",
+                "Kana": "イタチ"
+            },
+            {
+                "Lastname":"Uchiha",
+                "Firstname": "Obito",
+                "Img":"",
+                "Kana": "オビト"
+            },
+            {
+                "Lastname":"Hyuga",
+                "Firstname": "Hinata",
+                "Img":"",
+                "Kana": "ヒナタ"
+            },
+            {
+                "Lastname":"Namikaze",
+                "Firstname": "Minato",
+                "Img":"",
+                "Kana": "ミナト"
+            },
+            {
+                "Lastname":"Shikamaru",
+                "Firstname": "Nara",
+                "Img":"",
+                "Kana": "シカマル"
+            },
+            {
+                "Lastname":"Uchiwa",
+                "Firstname": "Madara",
+                "Img":"",
+                "Kana": "マダラ"
+            }
+        ]
+      },
+      {
+        "One piece": [
+            {
+                "Lastname":"Monkey D",
+                "Firstname": "Luffy",
+                "Img":"",
+                "Kana": "ルフィ"
+            },
+            {
+                "Lastname":"",
+                "Firstname": "Nami",
+                "Img":"",
+                "Kana": "ナミ"
+            },
+            {
+                "Lastname":"Roronoa",
+                "Firstname": "Zoro",
+                "Img":"",
+                "Kana": "ゾロ"
+            },
+            {
+                "Lastname":"",
+                "Firstname": "Sanji",
+                "Img":"",
+                "Kana": "サンジ"
+            },
+            {
+                "Lastname":"Nico",
+                "Firstname": "Robin ",
+                "Img":"",
+                "Kana": "ロビン"
+            },
+            {
+                "Lastname":"",
+                "Firstname": "Usopp",
+                "Img":"",
+                "Kana": "ウソップ"
+            },
+            {
+                "Lastname":"Tony Tony",
+                "Firstname": "Chopper",
+                "Img":"",
+                "Kana": "チョッパー"
+            },
+            {
+                "Lastname":"",
+                "Firstname": "Jinbe",
+                "Img":"",
+                "Kana": "ジンベエ"
+            },
+            {
+                "Lastname":"",
+                "Firstname": "Brook",
+                "Img":"",
+                "Kana": "ブルック"
+            },
+            {
+                "Lastname":"",
+                "Firstname": "Franky",
+                "Img":"",
+                "Kana": "フランキー"
+            }
+        ]
+      },
+      {
+        "Fairy tail": [
+            {
+                "Lastname":"Dragneel",
+                "Firstname": "Natsu",
+                "Img":"",
+                "Kana": "ナツ"
+            },
+            {
+                "Lastname":"Scarlet",
+                "Firstname": "Erza",
+                "Img":"",
+                "Kana": "エルザ"
+            },
+            {
+                "Lastname":"Fullbuster",
+                "Firstname": "Gray",
+                "Img":"",
+                "Kana": "グレイ"
+            },
+            {
+                "Lastname":"Heartfilia",
+                "Firstname": "Lucy",
+                "Img":"",
+                "Kana": "ルーシィ"
+            },
+            {
+                "Lastname":"Lockser",
+                "Firstname": "Juvia",
+                "Img":"",
+                "Kana": "ジュビア"
+            },
+            {
+                "Lastname":"",
+                "Firstname": "Happy",
+                "Img":"",
+                "Kana": "ハッピー"
+            },
+            {
+                "Lastname":"Marvell",
+                "Firstname": "Wendy",
+                "Img":"",
+                "Kana": "ウェンディ"
+            },
+            {
+                "Lastname":"Jellal Fernandes",
+                "Firstname": "Jinbe",
+                "Img":"",
+                "Kana": "ジェラール"
+            },
+            {
+                "Lastname":" Redfox",
+                "Firstname": "Gajeel",
+                "Img":"",
+                "Kana": "ガジル"
+            },
+            {
+                "Lastname":"Clive",
+                "Firstname": "Gildarts",
+                "Img":"",
+                "Kana": "ギルダーツ"
+            }
+        ]
+      },{
+        "Dragon ball Z": [
+            {
+                "Lastname":"",
+                "Firstname": "Sangoku",
+                "Img":"",
+                "Kana": "サンゴク"
+            },
+            {
+                "Lastname":"",
+                "Firstname": "Vegeta",
+                "Img":"",
+                "Kana": "ベジータ"
+            },
+            {
+                "Lastname":"",
+                "Firstname": "Piccolo",
+                "Img":"",
+                "Kana": "ピッコロ"
+            },
+            {
+                "Lastname":"",
+                "Firstname": "Kuririn",
+                "Img":"",
+                "Kana": "クリリン"
+            },
+            {
+                "Lastname":"",
+                "Firstname": "Trunks",
+                "Img":"",
+                "Kana": "トランクス"
+            },
+            {
+                "Lastname":"",
+                "Firstname": "Bulma",
+                "Img":"",
+                "Kana": "ブルマ"
+            },
+            {
+                "Lastname":"",
+                "Firstname": "Bardock",
+                "Img":"",
+                "Kana": "バーダック"
+            },
+            {
+                "Lastname":"",
+                "Firstname": "Nappa",
+                "Img":"",
+                "Kana": "ナッパ"
+            },
+            {
+                "Lastname":"",
+                "Firstname": "Ginyu",
+                "Img":"",
+                "Kana": "ギニュー"
+            },
+            {
+                "Lastname":"",
+                "Firstname": "Oolong",
+                "Img":"",
+                "Kana": "ウーロン"
+            }
+        ]
+      },
+    
+        
+    ]
+  }
