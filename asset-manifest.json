@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Sushiman---Food-Landing-Pages/static/css/main.c2aeec7c.css",
+    "main.css": "/Sushiman---Food-Landing-Pages/static/css/main.545d7c09.css",
     "main.js": "/Sushiman---Food-Landing-Pages/static/js/main.920c68c3.js",
     "static/media/Desktop - 1 (2).png": "/Sushiman---Food-Landing-Pages/static/media/Desktop - 1 (2).3c21418c1170e4faed90.png",
     "static/media/iMac - 2.png": "/Sushiman---Food-Landing-Pages/static/media/iMac - 2.44bfb8a1030671fd33bf.png",
@@ -25,11 +25,11 @@
     "static/media/slick.ttf": "/Sushiman---Food-Landing-Pages/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Sushiman---Food-Landing-Pages/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Sushiman---Food-Landing-Pages/index.html",
-    "main.c2aeec7c.css.map": "/Sushiman---Food-Landing-Pages/static/css/main.c2aeec7c.css.map",
+    "main.545d7c09.css.map": "/Sushiman---Food-Landing-Pages/static/css/main.545d7c09.css.map",
     "main.920c68c3.js.map": "/Sushiman---Food-Landing-Pages/static/js/main.920c68c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2aeec7c.css",
+    "static/css/main.545d7c09.css",
     "static/js/main.920c68c3.js"
   ]
 }
